@@ -1,3 +1,19 @@
+ion-toolbar {
+    --background: #15202b !important;
+
+    strong {
+        position: absolute;
+        right: 13%;
+        color: #e4e4e4;
+    }
+}
+
+.logoTW, img {
+    width: 45px;
+    height: 45px;
+    margin-top: 0px;
+    margin-left: 42%;
+}
 
 ion-content {
     --ion-background-color: #15202b !important;
@@ -27,6 +43,18 @@ ion-content {
         font-size: 20px;
         padding-left: 5.5%;
         color: darkgrey;
+    }
+    .linha {
+        width: 100%;
+        height: 1px;
+        background-color: white;   
+    }
+    p {
+        color: white;
+        font-size: 20px;
+    }
+    .linhaTOP {
+        --ion-background-color: rgb(255, 255, 255);
     }
 }
 
